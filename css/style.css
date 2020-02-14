@@ -1,38 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Slabo+27px&display=swap');
 *{
     box-sizing: border-box;
 }
+html, body {
+               height: 100%;
+           }
 body{
     background-color: #ffe6cc;
-
     font-weight: 300;
     color: #000000;
+
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
     margin-top: 30px;
 }
+
 header{
     margin-left: 50px;
     font-family: "Bungee Shade";
     font-size: 60px;
+    margin-bottom: 50px;
 
 }
-
+.menu{
+    font-family: "Bungee";
+    margin-right: 50px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+}
 main{
     font-family: "Slabo";
     font-weight: 300;
     color: #000000;
     margin: auto;
-    padding-top: 40px;
+    border: 4px double black;
+    border-radius: 10px;
 }
-p{
-    line-height: 28 px;
-    margin-bottom: 25 px;
+article{
+    padding: 20px;
+}
+
+
+footer{
+    margin-top: 10px;
 }
 .centered{
     text-align: center;
-}
-.navbar-header{
-
 }
