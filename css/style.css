@@ -20,16 +20,17 @@ header{
     margin-left: 50px;
     font-family: "Bungee Shade";
     font-size: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
 }
-.menu{
+
+.nav{
     font-family: "Bungee";
     margin-right: 50px;
     font-size: 25px;
-    margin-bottom: 20px;
     color: black;
 }
+
 main{
     font-family: "Slabo";
     font-weight: 300;
